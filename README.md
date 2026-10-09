@@ -6,9 +6,9 @@
 
 **GitHub About (short English description):** The first live-streaming radio mod for DayZ — tune in and listen live.
 
-**Release status:** source preview. The streaming source now plays seven verified public-domain recordings (see `docs/STREAM.md`). The signed Workshop release and the public
+**Release status:** source preview. The signed Workshop release and the public
 `https://radio.loot.team/radio` stream are **not released yet** (HTTPS hostname is configured, audio intentionally returns 503 until content clearance). Do not assume
-this repository or URL is ready for production. [Publishing checklist](docs/RELEASE.md).
+this repository or URL is ready for production.
 
 ## English
 
@@ -33,11 +33,11 @@ If MPC-HC is unavailable, an in-game hint displays the setup path. Radio
 playback stops when you put the radio away, switch it off, die or exit normally.
 A forcibly killed game cannot send a shutdown request to MPC-HC.
 
-Server admins: see [server integration](docs/SERVER.md),
-[build/signing](docs/BUILD.md), and [release checklist](docs/RELEASE.md).
-One sample slot points to `https://radio.loot.team/radio` (only after the
-stream is publicly verified); the other seven slots have empty URLs. Streaming
-content rights are the responsibility of each server operator.
+Server admins: see [server integration](docs/SERVER.md) and
+[build/signing](docs/BUILD.md).
+One sample slot points to your own station URL; the other seven slots have
+empty URLs. Streaming content rights are the responsibility of each server
+operator.
 
 **Optional test server:** `loot.team:2302` — availability is **not guaranteed**;
 only advertise it after checking access from outside the owner's network.
@@ -59,8 +59,8 @@ only advertise it after checking access from outside the owner's network.
 Первое включение показывает краткую подсказку; при отсутствии связи с плеером
 мод подскажет, как его включить. Пустые частоты не воспроизводят звук.
 
-Администратору: [встраивание серверной части](docs/SERVER.md),
-[сборка и подпись](docs/BUILD.md), [проверка перед публикацией](docs/RELEASE.md).
+Администратору: [встраивание серверной части](docs/SERVER.md)
+и [сборка и подпись](docs/BUILD.md).
 Тестовый сервер `loot.team:2302` может быть недоступен.
 
 ## Links
