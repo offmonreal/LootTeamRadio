@@ -6,7 +6,7 @@
 
 **GitHub About (short English description):** The first live-streaming radio mod for DayZ — tune in and listen live.
 
-**Release status:** source preview. The signed Workshop release and the public
+**Release status:** source preview. The streaming source now plays seven verified public-domain recordings (see `docs/STREAM.md`). The signed Workshop release and the public
 `https://radio.loot.team/radio` stream are **not released yet** (HTTPS hostname is configured, audio intentionally returns 503 until content clearance). Do not assume
 this repository or URL is ready for production. [Publishing checklist](docs/RELEASE.md).
 
