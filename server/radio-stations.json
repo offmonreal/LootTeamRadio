@@ -1,0 +1,52 @@
+{
+  "stations": [
+    {
+      "slotId": 1,
+      "frequency": 87.8,
+      "name": "Loot.Team Radio",
+      "url": "https://radio.loot.team/radio"
+    },
+    {
+      "slotId": 2,
+      "frequency": 89.5,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 3,
+      "frequency": 91.3,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 4,
+      "frequency": 91.9,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 5,
+      "frequency": 94.6,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 6,
+      "frequency": 96.6,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 7,
+      "frequency": 99.7,
+      "name": "",
+      "url": ""
+    },
+    {
+      "slotId": 8,
+      "frequency": 102.5,
+      "name": "",
+      "url": ""
+    }
+  ]
+}

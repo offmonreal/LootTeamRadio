@@ -1,0 +1,12 @@
+# Never publish signing secrets, credentials or local DayZ profiles
+*.biprivatekey
+*.bisign
+*.pbo
+*.key
+*.pem
+.env*
+secrets/
+profiles/
+*.RPT
+*.log
+.DS_Store
